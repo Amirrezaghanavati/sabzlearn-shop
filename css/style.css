@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './fonts.css';
+@import './top-bar.css';
 
 /* Start default styles */
 
@@ -34,8 +35,4 @@ a:hover{
 i{
     -webkit-user-select: none;
 }
-
-
-
-
 /* Final default styles */
