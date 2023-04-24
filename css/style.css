@@ -423,6 +423,23 @@ i{
 /*finish latest courses styles*/
 
 
+/* start about us styles */
+.about-us{
+    margin: 5rem 0;
+}
+
+.about-us__header{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us__sub-title{
+    color: #9c9c9c;
+    font-size: 1.5rem;
+}
+/* finish about us styles */
+
+
 /*start helper classes*/
 .title{
     font-size: 2.3rem;
@@ -455,3 +472,5 @@ i{
     background-color: rgba(43, 206, 80, 0.2);
 }
 /* finish helper classes */
+
+
