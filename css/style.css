@@ -437,6 +437,31 @@ i{
     color: #9c9c9c;
     font-size: 1.5rem;
 }
+
+
+.about-us__box{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+}
+
+.about-us__icon{
+    color: #666;
+    font-size: 6rem;
+}
+
+.about-us__box-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+}
+
+.about-us__box-title{
+    font-weight: bold;
+}
 /* finish about us styles */
 
 
