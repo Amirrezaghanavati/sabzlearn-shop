@@ -1,0 +1,143 @@
+/* start latest courses styles */
+.courses{
+    margin: 4rem 0;
+}
+
+.courses-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses-header__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-header__text{
+    color: #9c9c9c;
+    font-size: 1.5rem;
+}
+
+.courses-header__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.courses-header__link:hover{
+    color: var(--white-color);
+}
+
+.courses-header__icon{
+    margin-right: .6rem;
+}
+
+.courses-content{
+    margin: 1rem 0;
+}
+
+.course-box{
+    background-color: var(--white-color);
+    box-shadow: 0 0 19px rgba(168, 192, 200, 0.3);
+    border-radius: 1rem;
+    margin: 2rem 1rem;
+    transition: all 400ms ease;
+    /*border: 2px solid black; */
+}
+
+.course-box:hover{
+    transform: translateY(-0.6rem);
+}
+
+.course-box__image{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.course-box__main{
+    padding: 0 2rem;
+}
+
+.course-box__title{
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+
+.course-box__rating-teacher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.course-box__teacher{
+    display: flex;
+    align-items: center;
+}
+
+.course-box__teacher-icon{
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+
+.course-box__teacher-link{
+    color: #6c757d;
+    font-size: 1.3rem;
+    margin-right: .3rem;
+}
+
+.course-box__star{
+    margin: -.2rem;
+}
+
+
+.course-box__status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.course-box__users-icon{
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+
+.course-box__users-text{
+    color: #6c757d;
+    font-size: 1.3rem;
+}
+
+.course-box__price{
+    color: #9c9c9c;
+    font-size: 1.9rem;
+}
+
+.course-box__footer{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    /* background-color: var(--primary-color); */
+    border-top: 1px solid #e8e8e8;
+}
+
+.course-box_footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.course-box__footer-icon{
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
+/*finish latest courses styles*/
