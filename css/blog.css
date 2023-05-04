@@ -1,0 +1,82 @@
+@import './variables.css';
+@import './fonts.css';
+@import './top-bar.css';
+@import './nav-bar.css';
+@import './defaults.css';
+@import './footer.css';
+@import './footer.css';
+@import './course-box.css';
+@import './helpers.css';
+@import './braedcrumb.css';
+@import './sideBarCoursesBox.css';
+
+
+/* start sidebar styles */
+.course-info{
+    overflow: hidden;
+}
+.course-info__courses-title{
+    position: relative;
+   
+}
+
+.course-info__courses-title::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 39px;
+    background-color: var(--primary-color);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 14px;
+    right: -26px;
+    transform: skew(-10deg);
+    top: -5px;
+}
+
+.sidebar-articles__list{
+    margin-top: 2rem;
+}
+
+.sidebar-articles__item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem;
+    transition: all 400ms ease;
+}
+
+.sidebar-articles__item:hover{
+    padding-right: 2rem;
+    background-color: #f8f9fa;
+}
+
+.sidebar-articles__item:hover .sidebar-articles__icon{
+    color: var(--primary-color);
+}
+
+.sidebar-articles__icon{
+    font-size: 1.4rem;
+    color: #909aa7;
+    transition: all 400ms ease;
+}
+
+.sidebar-articles__link{
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+.lat-articles__list{
+    margin-top: 2rem;
+}
+
+.lat-articles__item{
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem 0;
+}
+
+.lat-articles__link{
+    font-size: 1.5rem;
+}
+/* finish sidebar styles */
+
+
