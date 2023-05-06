@@ -11,6 +11,47 @@
 @import './sideBarCoursesBox.css';
 
 
+/* start article details styles */
+.article{
+    padding: 2.4rem;
+    border-radius: 0 8px;
+    box-shadow: 0 5px 30px rgba(70, 72, 77, .08);
+}
+
+.article__title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: var(--dark-color);
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 1rem;
+}
+
+.article__header{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.article-header__item{
+    margin-left: 2rem;
+}
+
+.article-header__icon{
+    font-size: 1.7rem;
+    color: #c7c7c7;
+}
+
+.article-header__text{
+    font-size: 1.4rem;
+    color: #8f8f8f;
+}
+
+.article__banner{
+   display: block;
+   margin: 0 auto;
+}
+/* finish article details styles */
+
 /* start sidebar styles */
 .course-info{
     overflow: hidden;
@@ -77,6 +118,196 @@
 .lat-articles__link{
     font-size: 1.5rem;
 }
+
+
+.article__score{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.article__score-icon{
+    margin-left: -6.4px;
+}
+
+.article__score-text{
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    color: #7b7b7f;
+}
+
+.article-read{
+    background-color: #f2f2f2;
+    border-radius: 3rem;
+    padding: 2rem 3rem;
+    margin: 3rem 0;
+}
+
+.article-read__title{
+    display: block;
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.article-read__link{
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #1e83f0;
+
+    
+}
+
+.article-read__link:hover{
+    text-decoration: underline;
+}
+
+.article__seccondary-banner{
+    display: block;
+    margin: 0 auto;
+}
+
+.article-section{
+    margin: 5rem 0;
+}
+
+.article-section__title{
+    color: #008c25;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.article-section__text{
+    margin: 2rem 0;
+}
+
+.article-section__img{
+    display: block;
+    margin: 0 auto;
+}
+
+.article-social-media{
+    display: flex;
+    align-items: center;
+}
+
+.article-social-media__text{
+    font-size: 1.5rem;
+    color: #7b7b7f;
+}
+
+.article-social-media__link{
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    color: #7b867a;
+}
+
+.article-social-icon{
+    margin-right: 1rem;
+}
+
+.suggestion-articles{
+    margin: 4rem 0;
+    padding: 3.5rem 2.5rem;
+    border-radius: 1rem;
+    background-color: #f2f0f7;
+}
+
+.suggestion-articles__content{
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-articles__right , .suggestion-articles__left{
+    position: relative;
+}
+
+
+.suggestion-articles__right::before{
+    content: "قدیمی تر";
+    position: absolute;
+    top: -2rem;
+    left: 2rem;
+    font-size: 1.8rem;
+    color: #adb5db;
+    font-weight: bold;
+    transform: rotate(180deg);
+}
+
+.suggestion-articles__left::before{
+    content: "جدید تر";
+    position: absolute;
+    top: -2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+    color: #adb5db;
+}
+
+.suggestion-articles__link{
+    color: #adb5db;
+}
+
+.suggestion-articles__text-link{
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+}         
+
+.comments__title{
+    color: var(--dark-color);
+    font-size: 1.2rem;
+}
+
+.comments__text{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.comments__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.comments__content-title{
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.comments__content-textarea{
+    height: 18.5rem;
+    border-radius: .5rem;
+    border:  1px solid #dcdcdc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .07);
+}
+
+.comments__button{
+    margin-top: 2rem;
+    max-width: 15rem;
+    padding: .5rem 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
 /* finish sidebar styles */
+
+
+/* start helper class */
+.paragraph{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #7d7b7f;
+}
+
+/* finish helper class */
 
 
