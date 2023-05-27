@@ -1,3 +1,11 @@
+import {
+  getAndShowCourses,
+  getAndShowPopularCourses,
+  getAndShowPresellCourses,
+  getAndShowArticles,
+  getAndShowNavbarMenus
+} from "./funcs/shared.js";
+
 const $ = document;
 const landingTitle = $.querySelector(".landing__title");
 const landingCoursesCount = $.querySelector("#courses-count");
@@ -12,7 +20,15 @@ window.addEventListener("load", () => {
   makeCounter(40, landingCoursesCount);
   makeCounter(3_320, landingMinutesCount);
   makeCounter(3_071, landingUsersCount);
+
+  getAndShowCourses();
+  getAndShowPopularCourses();
+  getAndShowPresellCourses();
+  getAndShowArticles();
+  getAndShowNavbarMenus();
 });
+
+
 
 function typeWriter(text, index) {
   if (index < text.length) {
